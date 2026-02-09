@@ -23,6 +23,8 @@ export const links: Route.LinksFunction = () => [
   },
 ];
 
+import { registerLicense } from "@syncfusion/ej2-base";
+
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
